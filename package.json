@@ -1,0 +1,22 @@
+{
+  "name": "grupo9proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto integrador Grupo #9 naturalplate.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samaanlen/grupo9Proyecto.git"
+  },
+  "keywords": [
+    "naturalplate"
+  ],
+  "author": "Equipo #9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samaanlen/grupo9Proyecto/issues"
+  },
+  "homepage": "https://github.com/samaanlen/grupo9Proyecto#readme"
+}
