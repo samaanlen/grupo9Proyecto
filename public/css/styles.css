@@ -374,8 +374,7 @@ footer {
 .hidden {
 	display: none;
 }
-.container {
-}
+
 .container #howto .how_to_title {
     margin-top: 25px;
     text-align: left;
@@ -404,8 +403,7 @@ footer {
 	float: none;
 	display: none;
 }
-header nav ul {
-}
+
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
