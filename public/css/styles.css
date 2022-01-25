@@ -239,7 +239,7 @@ ul li:hover a {
 
 .redes-container {
 	display: flex;
-	height: : 100vh;
+	height:  100vh;
 	align-items: center;
 	justify-content: center;
 }
@@ -601,3 +601,51 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+
+
+
+.login { display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px;;
+	}
+
+	.usuario,
+	.contraseña,
+	.boton-enviar {width: 270px;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		text-align: center;
+		vertical-align: middle;
+		border-radius: 0px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+		border: 3px solid #008600;
+		color: #FFFFFF;
+		transition: all 0.3s linear;}
+
+		main form input {
+			border: none;
+			text-align: center;
+			font-family: source-sans-pro;
+			font-style: normal;
+			font-weight: 200;
+			font-size: large
+
+		}
+
+		.olvidocontraseña {display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			padding: 15px;;
+
+		}
