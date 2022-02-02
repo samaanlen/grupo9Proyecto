@@ -628,7 +628,9 @@ nav ul li {
 		letter-spacing: 2px;
 		border: 3px solid #008600;
 		color: #FFFFFF;
-		transition: all 0.3s linear;}
+		transition: all 0.3s linear;
+		justify-content: space-around;
+		}
 
 		main form input {
 			border: none;
@@ -647,3 +649,53 @@ nav ul li {
 			padding: 15px;;
 
 		}
+
+	.name,
+	.user,
+	.email,
+	.cumple1,
+	.domicilio,
+	.contraseña1,
+	.contraseña2,
+	.botonenviarregistro,
+	.botonborrar	 { 
+		width: 270px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 0px;
+			margin-left: auto;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 0px;
+			text-transform: uppercase;
+			font-weight: bold;
+			letter-spacing: 2px;
+			border: 3px solid #008600;
+			color: #008600;
+			transition: all 0.3s linear;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			
+	}
+
+	.iniciasesion {display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		padding: 15px;;
+
+	}
+
+	.nacimiento{display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+		margin:0px
+
+	}

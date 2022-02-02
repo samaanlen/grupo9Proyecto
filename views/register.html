@@ -1,42 +1,85 @@
 <!DOCTYPE html>
+<html lang="es-AR"></html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>REGISTRO</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NATURAL PLATE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link href="../public/css/styles.css" rel="stylesheet" type="text/css"> -->
+    
+    <!--Script para descargar iconos desde fontawasome -->
+    <script src="https://kit.fontawesome.com/28e8a583e7.js" crossorigin="anonymous"></script>
+        
+    <!--Script para descargar fuentes desde Adobe Edge Web Fonts server. -->
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+    
     </head>
     <body>
-        <header>
-        </header>
+        <div class="container"> 
+            <header> <a href="">
+        <h4 class="logo"><img src="images/NaturalPlate_logo.svg" width="200px" alt=""/></h4>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#home">Menus</a></li>
+            <li><a href="#home">Planes</a></li>
+            <li><a href="#home">Registrate</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Banner Section -->
+          <section class="hero" id="hero">
+          <h2 class="hero_header">REGISTRO <span class="light"></span></h2>
+          </section>
+
         <main class="register">
             <form action="/" method="POST">
                 
-                <input type="text" name="name" placeholder="Nombre y apellido" class="name" >
-                <input type="text" name="user" placeholder="Nombre de usuario" class="user">
+                <input type="text" name="name" placeholder="Nombre" class="name" >
                 <input type="email" name="email" placeholder="E-mail"class="email">
-
+                <div class="nacimiento">
                 <br>
                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
                 <br>
+                 </div>
                 <input type="date" name="birth_date" id="birth_date" class="cumple1">
                 <br>
                 <input type="text" name="addres" placeholder="Domicilio"class="domicilio">
                      
-                <input type="password" name="pass" placeholder="Elegí tu contraseña" class="contraseña1">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" class="contraseña2">
+                <input type="password" name="pass" placeholder="Contraseña" class="contraseña1">
+                <input type="password" name="pass_confirm" placeholder="Confirmar contraseña" class="contraseña2">
                 <br>
                 <br>
                 
-                <input type="submit" value="Enviar" class="botonenviarregistro">
-                <input type="reset" value="Borrar" class="botonborrar">
+                <input type="submit" value="Crear Cuenta" class="botonenviarregistro">
+                
                 <br>
                 <br>
+                <div class="iniciasesion" >
+                <p><a href="/login">¿Ya tenés cuenta? Iniciá Sesión </a></p>
             </form>
         </main>
-        <footer>
-        </footer>
+               <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">ENTERATE DE NUESTRAS ULTIMAS RECETAS &amp;PRODUCTOS </p>
+    <div class="button">Suscribase</div>
+	 
+	  
+	  <div class="redes-container">
+	 <ul>
+		<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+		<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+	 </ul>
+	  </div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2022- <strong>Natural Plate</strong></div>
+</div>
     </body>
 </html>
