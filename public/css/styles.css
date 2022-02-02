@@ -600,7 +600,7 @@ nav ul li {
 }
 }
 
-
+/* INICIO STYLE REGISTER/LOGIN */
 
 .login { display: flex;
 	flex-direction: column;
@@ -609,9 +609,9 @@ nav ul li {
 	padding: 15px;;
 	}
 
-	.usuario,
-	.contraseña,
-	.boton-enviar {width: 270px;
+.usuario,
+.contraseña,
+.boton-enviar {width: 270px;
 		margin-top: 10px;
 		margin-right: auto;
 		margin-bottom: 0px;
