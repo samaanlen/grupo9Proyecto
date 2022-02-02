@@ -23,43 +23,42 @@
         </a>
         <nav>
           <ul>
-            <li><a href="#home">Menus</a></li>
-            <li><a href="/login">Ingresar</a></li>
-            <li><a href="#home">Planes</a></li>
-            <li><a href="#contact">Contactanos</a></li>
+            
           </ul>
         </nav>
       </header>
       <!-- Banner Section -->
           <section class="hero" id="hero">
-          <h2 class="hero_header">REGISTRO <span class="light"></span></h2>
+          <h2 class="hero_header">NUEVO <span class="light">MENU</span></h2>
           </section>
 
-        <main class="register">
+        <main class="creacionproductos">
             <form action="/" method="POST">
-                
-                <input type="text" name="name" placeholder="Nombre" class="name" >
-                <input type="email" name="email" placeholder="E-mail"class="email">
-                <div class="nacimiento">
-                <br>
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
-                 </div>
-                <input type="date" name="birth_date" id="birth_date" class="cumple1">
-                <br>
-                <input type="text" name="addres" placeholder="Domicilio"class="domicilio">
-                     
-                <input type="password" name="pass" placeholder="Contraseña" class="contraseña1">
-                <input type="password" name="pass_confirm" placeholder="Confirmar contraseña" class="contraseña2">
-                <br>
-                <br>
-                
-                <input type="submit" value="Crear Cuenta" class="botonenviarregistro">
-                
-                <br>
-                <br>
-                <div class="iniciasesion" >
-                <p><a href="/login">¿Ya tenés cuenta? Iniciá Sesión </a></p>
+              <div class="contenedor">
+              <div class="descripcion1">
+                <label for="nombreMenu">Plato:</label>
+                <input type="text" name="nombreMenu"  class="nombreMenu" >
+
+                <label for="descripcionMenu">Descripción:</label>
+                <input type="text" name="descripcionMenu" class="descripcionMenu">
+              </div>
+
+              <div class="descripcion2">
+                <label for="imagen">Imagen:</label>
+                <input type="file" name="imagenMenu" accept=".jpg" class="imagenMenu">
+
+                <label for="categoriaMenu">Categoria:</label>
+                <select name="categoriaMenu" class="categoriaMenu" >
+                  <option value="tradicional">Tradicional</option>
+                  <option value="vegYEnsalada">Vegetariano y Ensaladas</option>
+                  <option value="niños">Niños</option>
+                </select>
+
+                <label for="precioMenu">Precio:</label>
+                <input type="text" name="precioMenu" class="precioMenu">
+              </div>
+            </div>
+
             </form>
         </main>
                <!-- Footer Section -->

@@ -47,7 +47,7 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 75%;
 	text-align: right;
 	margin-right: 25px;
 }
@@ -692,10 +692,52 @@ nav ul li {
 
 	}
 
-	.nacimiento{display: flex;
-		flex-direction: column;
+	.nacimiento{
 		align-items: center;
 		padding: 0px;
-		margin:0px
+		margin:0px;
+		display: inline-block;
+		text-align: center;
 
+	}
+
+	.creacionproductos {
+		display: flex;
+		align-items: center;
+	}
+
+	.contenedor {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		
+	}
+
+	.descripcion1,
+	.descripcion2 {
+		margin-right:100px;
+		align-items: center;
+		justify-content: space-around;
+		font-weight: bold;
+	}
+	.nombreMenu,
+	.descripcionMenu,
+	.imagenMenu,
+	.precioMenu,
+	.categoriaMenu {
+		width: 300px;
+		display: flex;
+		margin-bottom: 10px;
+		border: 2px solid #008600 ;
+	}
+
+	.descripcionMenu {
+		height: 100px;
+		width: 300PX;
+	}
+
+	.imagenMenu {
+		border: none;
+		font-size:15px;
+		width: 400px;;
 	}
